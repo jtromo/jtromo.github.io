@@ -8,19 +8,11 @@ Every color variant has its appropriate stylesheets located in the /css director
 
 ## Javascript
 
-Apart from Bootstrap JS components majority of JS is located in /js/front.js. In this file you can change the settings of the owl carousel, google maps settings etc. 
+Apart from Bootstrap JS components majority of JS is located in /js/front.js. In this file you can change the settings of the owl carousel, google maps settings etc.
 
 ## Google Maps
 
 Google maps are used on the contact page. If you need just to show location of the company on the map, the only necessary thing is to change coordinates in the header of contact.html. For further settings and possibilities please consult [Google Maps API documentation](https://developers.google.com/maps/documentation/javascript/).
-
-## Contact form
-
-To set up contact form:
-
-1. Upload a template to your webhosting or set up HTTP server on your local machine (XAMPP, WAMP or similar).
-2. Make directory php/temp writeable (change attributes to 777)
-3. Edit the options in contact.php file. The most important are: `$from` and `$sendTo`. The rest can remain as it is.
 
 ## Credits
 - ondrique, (ahoj@ondrejsvestka.cz)
@@ -32,7 +24,7 @@ To set up contact form:
 - Owl Carousel ([http://www.owlgraphic.com/owlcarousel/](http://www.owlgraphic.com/owlcarousel/))
 - jQuery Waypoints ([http://imakewebthings.com/jquery-waypoints/](http://imakewebthings.com/jquery-waypoints/))
 - animate.css ([http://daneden.github.io/animate.css/](http://daneden.github.io/animate.css/))
-- Modernizr ([http://modernizr.com/](http://modernizr.com/)) 
+- Modernizr ([http://modernizr.com/](http://modernizr.com/))
 - Bootstrap Hover Dropdown plugin ([https://github.com/CWSpear/bootstrap-hover-dropdown](https://github.com/CWSpear/bootstrap-hover-dropdown))
 - jQuery scrollTo ([http://demos.flesler.com/jquery/scrollTo/](http://demos.flesler.com/jquery/scrollTo/))
 - gmaps.js ([http://hpneo.github.io/gmaps/](http://hpneo.github.io/gmaps/))
@@ -55,7 +47,7 @@ To set up contact form:
  LICENSE CONDITIONS
 ---------------------
 
-You are completely free to use this template for your personal use or as a work for your client as long as you keep the link at the template footer pointing to us and our partner. 
+You are completely free to use this template for your personal use or as a work for your client as long as you keep the link at the template footer pointing to us and our partner.
 
 If you would prefer removing the backlink from the theme footer, please donate (https://bootstrapious.com/donate) to support themes' development. Suggested amount per template is $10.
 
