@@ -1,8 +1,4 @@
-################################################################################################
-
-# Website for Ember Spark Software, LLC and founder James Romo
-
-################################################################################################
+# Ember Spark Software, LLC and founder James Romo website
 
 
 ## Changing the color of the theme
@@ -68,9 +64,3 @@ However you cannot redistribute the template nor its derivatives on the internet
 Thank you for understanding and respecting the license conditions.
 
 If more info needed, contact me at hello@bootstrapious.com.
-
----------------------
- GET IN TOUCH
----------------------
-
-https://twitter.com/bootstrapious | https://google.com/+Bootstrapious1 | https://www.facebook.com/bootstrapious | hello@bootstrapious.com
