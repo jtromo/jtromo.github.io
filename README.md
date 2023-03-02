@@ -1,8 +1,10 @@
-# Ember Spark Software, LLC and founder James Romo's website
+# Ember Spark Software LLC and founder James Romo's website
 
 ## Credits
 - ondrique, (ahoj@ondrejsvestka.cz)
 - Bootstrap 3.3 - [http://getbootstrap.com/](http://getbootstrap.com/)
+- peter_pyw - [night-city-evening-sunset-sky-3084237](https://pixabay.com/photos/night-city-evening-sunset-sky-3084237/) under [Pixabay License](https://pixabay.com/service/terms/) (Free to use under the Pixabay license. No attribution required)
+- Clker-Free-Vector-Images - [fire-flame-black-circle-logo-303309](https://pixabay.com/vectors/fire-flame-black-circle-logo-303309/) under [Pixabay License](https://pixabay.com/service/terms/) (Free to use under the Pixabay license. No attribution required)
 
 ## Plugins used in the template
 
