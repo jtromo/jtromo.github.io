@@ -867,18 +867,6 @@ div.wpcf7 .wpcf7-form p {
 /*
 
 =====================
-MAP
-=====================
-
-*/
-
-#map {
-  height: 400px;
-}
-
-/*
-
-=====================
 FOOTER
 =====================
 
@@ -926,7 +914,7 @@ FOOTER
   background-color: #333;
 }
 
-#footer p.social a.github_workiva {
+#footer p.social a.linktree {
   background-color: #66cc00;
 }
 

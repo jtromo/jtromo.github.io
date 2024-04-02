@@ -14,7 +14,6 @@
 - Modernizr ([http://modernizr.com/](http://modernizr.com/))
 - Bootstrap Hover Dropdown plugin ([https://github.com/CWSpear/bootstrap-hover-dropdown](https://github.com/CWSpear/bootstrap-hover-dropdown))
 - jQuery scrollTo ([http://demos.flesler.com/jquery/scrollTo/](http://demos.flesler.com/jquery/scrollTo/))
-- gmaps.js ([http://hpneo.github.io/gmaps/](http://hpneo.github.io/gmaps/))
 - Masonry ([http://masonry.desandro.com/](http://masonry.desandro.com/))
 - jQuery Parallax ([http://ianlunn.co.uk/plugins/jquery-parallax](http://ianlunn.co.uk/plugins/jquery-parallax/))
 - jQuery Counter Up ([https://github.com/bfintal/Counter-Up](https://github.com/bfintal/Counter-Up))
