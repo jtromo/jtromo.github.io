@@ -30,7 +30,6 @@
   <link href="css/custom.css" rel="stylesheet">
 
   <!-- owl carousel css -->
-
   <link href="css/owl.carousel.css" rel="stylesheet">
   <link href="css/owl.theme.css" rel="stylesheet">
 
@@ -43,10 +42,41 @@
   <!-- Mordernizr -->
   <script src="js/modernizr-2.6.2.min.js"></script>
 
-  <!-- Responsivity for older IE -->
-  <!--[if lt IE 9]>
-    <script src="js/respond.min.js"></script>
-<![endif]-->
+  <!-- #### JAVASCRIPT FILES ### -->
+
+  <!-- js base -->
+  <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+  <!-- for demo purpose -->
+  <script src="js/jquery.cookie.js"></script>
+
+  <!-- waypoints for scroll spy -->
+  <script src="js/waypoints.min.js"></script>
+
+  <!-- maps -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC-iXMAoB65jNzfvh2WznVL2A_axkbqg5o"></script>
+  <!-- to use it on your site, generate your own API key for Google Maps and paste it above -->
+  <script src="js/gmaps.js"></script>
+
+  <!-- masonry layout -->
+  <script src="js/masonry.pkgd.min.js"></script>
+
+  <!-- owl carousel -->
+  <script src="js/owl.carousel.min.js"></script>
+
+
+  <!-- jQuery scroll to -->
+  <script src="js/jquery.scrollTo.min.js"></script>
+
+  <!-- jQuery counter -->
+  <script src="js/jquery.counterup.min.js"></script>
+
+  <!-- jQuery parallax -->
+  <script src="js/jquery.parallax-1.1.3.js"></script>
+
+  <!-- main js file -->
+  <script src="js/front.js"></script>
 </head>
 
 <body data-spy="scroll" data-target="#navigation" data-offset="120">
@@ -79,7 +109,7 @@ _________________________________________________________ -->
                     <li><a href="#testimonials">Testimonials</a>
                     </li>
                     -->
-          <li><a href="#references">My work</a>
+          <li><a href="#references">Our work</a>
           </li>
           <li><a href="#companies">Company Experience</a>
             <!-- Commented out until customers use the LLC
@@ -129,7 +159,7 @@ _________________________________________________________ -->
         <div class="row">
 
           <div class="col-sm-12">
-            <h2 class="title" data-animate="fadeInDown">About me</h2>
+            <h2 class="title" data-animate="fadeInDown">About us</h2>
           </div>
 
           <div class="col-sm-12">
@@ -137,20 +167,35 @@ _________________________________________________________ -->
             <div class="row">
 
               <div class="col-sm-6 text-left" data-animate="fadeInUp">
+
                 <p>
-                  The goal of Ember Spark Software is to take your ideas from the initial idea to the fire that changes
-                  the world...or perhaps just makes someone's life a little easier.
+                  At <strong>Ember Spark Software</strong>, the mission is simple: take your ideas from a flicker of
+                  inspiration to a blazing product that can change the world, or at the very least, make someone's day a
+                  little better.
                 </p>
 
                 <p>
-                  My name is <strong>James Romo</strong> and I am the founder of <strong>Ember Spark Software
-                    LLC</strong>. I've developed software for companies of all sizes including Google, BarnTools,
-                  Workiva, Intel, and Sokikom.
+                  I'm <strong>James Romo</strong>, the founder of Ember Spark Software LLC. Over the years, we've helped
+                  build software for companies ranging from scrappy startups to global giants like Google, Intel,
+                  Workiva, BarnTools, and Sokikom. Whether you're validating a new idea or scaling an existing product,
+                  we bring the experience, agility, and creativity to help you get there.
                 </p>
 
               </div>
 
               <div class="col-sm-6" data-animate="fadeInUp">
+
+                <div class="skill-item">
+                  <div class="progress-title">
+                    Flutter
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-skill2" role="progressbar" aria-valuenow="80"
+                      aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
+                      <span class="sr-only">100</span>
+                    </div>
+                  </div>
+                </div>
 
                 <div class="skill-item">
                   <div class="progress-title">
@@ -166,11 +211,11 @@ _________________________________________________________ -->
 
                 <div class="skill-item">
                   <div class="progress-title">
-                    Python
+                    JavaScript
                   </div>
                   <div class="progress">
                     <div class="progress-bar progress-bar-skill5" role="progressbar" aria-valuenow="70"
-                      aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                      aria-valuemin="0" aria-valuemax="100" style="width: 85%;">
                       <span class="sr-only">70</span>
                     </div>
                   </div>
@@ -214,24 +259,24 @@ _________________________________________________________ -->
 
                 <div class="skill-item">
                   <div class="progress-title">
-                    Objective-C
+                    Python
                   </div>
                   <div class="progress">
-                    <div class="progress-bar progress-bar-skill3" role="progressbar" aria-valuenow="90"
-                      aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
-                      <span class="sr-only">90</span>
+                    <div class="progress-bar progress-bar-skill5" role="progressbar" aria-valuenow="70"
+                      aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                      <span class="sr-only">70</span>
                     </div>
                   </div>
                 </div>
 
                 <div class="skill-item">
                   <div class="progress-title">
-                    JavaScript
+                    Objective-C
                   </div>
                   <div class="progress">
-                    <div class="progress-bar progress-bar-skill5" role="progressbar" aria-valuenow="70"
-                      aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
-                      <span class="sr-only">70</span>
+                    <div class="progress-bar progress-bar-skill3" role="progressbar" aria-valuenow="90"
+                      aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+                      <span class="sr-only">90</span>
                     </div>
                   </div>
                 </div>
@@ -263,24 +308,36 @@ _________________________________________________________ -->
               <div class="icon"><i class="fa fa-search"></i>
               </div>
               <h3 class="heading">Consulting</h3>
-              <p>Ember Spark Software LLC provides a range of software consulting work covering anything from adding a
-                feature to an existing project to starting a new idea from scratch. We specialize in the mobile realm,
-                but provide web services as well.</p>
+              <p>
+                Whether you need help shipping a new feature or launching an entire product, Ember Spark Software LLC
+                offers flexible consulting services tailored to your needs. From MVPs to complex systems, we specialize
+                in mobile solutions and also provide full-stack web support. Think of us as your technical partner—ready
+                to jump in wherever you need momentum.
+              </p>
             </div>
 
             <div class="col-md-4" data-animate="fadeInUp">
               <div class="icon"><i class="fa fa-mobile"></i>
               </div>
               <h3 class="heading">Mobile Development</h3>
-              <p>With our extensive mobile experience, we are able to provide a wide varity of mobile consulting for new
-                or existing apps. We support Flutter, iOS, and Android.</p>
+              <p>
+                Mobile is where Ember Spark shines. With deep experience in Flutter, native iOS, and Android, we can
+                help you design, build, or optimize your mobile app—whether you're starting from scratch or improving
+                what's already in place. We understand what it takes to deliver smooth, responsive, and scalable mobile
+                experiences.
+              </p>
             </div>
 
             <div class="col-md-4" data-animate="fadeInUp">
               <div class="icon"><i class="fa fa-code"></i>
               </div>
               <h3 class="heading">Web Development</h3>
-              <p>We also have web experience and are able to provide both frontend and backend support.</p>
+              <p>
+                From backend APIs to polished frontend interfaces, we offer end-to-end web development services. Our
+                team brings full-stack expertise to the table, ensuring that your web application is not only
+                functional, but fast, secure, and intuitive. We're happy to support standalone web apps or services that
+                complement your mobile offerings.
+              </p>
             </div>
 
           </div>
@@ -291,7 +348,7 @@ _________________________________________________________ -->
 
             <p class="lead">Would you like to know more or just discuss something?</p>
 
-            <p><a href="#contact" class="btn btn-default btn-lg scrollTo">Contact me</a>
+            <p><a href="#contact" class="btn btn-default btn-lg scrollTo">Contact us</a>
             </p>
 
           </div>
@@ -367,7 +424,7 @@ _________________________________________________________ -->
         <div class="col-sm-12">
 
           <div class="mb20">
-            <h2 class="title" data-animate="fadeInUp">My work</h2>
+            <h2 class="title" data-animate="fadeInUp">Our work</h2>
           </div>
 
           <ul id="filter" data-animate="fadeInUp">
@@ -879,8 +936,7 @@ _________________________________________________________ -->
       <div class="container">
         <div class="col-md-12">
 
-
-          <h2 class="title">Contact me</h2>
+          <h2 class="title">Contact us</h2>
 
           <div class="row">
 
@@ -891,14 +947,17 @@ _________________________________________________________ -->
                   <a href="mailto:embersparksoftware@gmail.com" target="_top"><i class="fa fa-fw fa-google"></i>
                     embersparksoftware@gmail.com</a>
                 </li>
+
                 <li>
                   <a href="https://www.linkedin.com/in/james-romo" class=""><i class="fa fa-fw fa-linkedin"></i>
                     linkedin.com/in/james-romo</a>
                 </li>
+
                 <li>
                   <a href="https://www.github.com/jtromo" class=""><i class="fa fa-fw fa-github"></i>
                     github.com/jtromo</a>
                 </li>
+
                 <li>
                   <a href="https://linktr.ee/jtromo" class=""><i class="fa fa-fw fa-tree"></i>
                     linktr.ee/jtromo</a>
@@ -944,14 +1003,14 @@ _________________________________________________________ -->
           </div>
 
           <div class="col-sm-12">
-            <p class="copyright">&copy; 2024 Ember Spark Software LLC. All rights reserved.</p>
+            <p class="copyright" id="copyright"></p>
           </div>
 
-          <div class="col-sm-12">
-            <p class="template-bootstrapious">Template by <a
-                href="https://bootstrapious.com/e-commerce-templates">Bootstrapious</a></p>
-            <!-- Please do not remove the backlink to us, unless you support the development at https://bootstrapious.com/donate. It is part of the license conditions. Thanks for understanding :)        -->
-          </div>
+          <script>
+            const currentYear = new Date().getFullYear();
+            var copyrightString = "&copy; " + currentYear + " Ember Spark Software LLC. All rights reserved.";
+            $("#copyright").html(copyrightString);
+          </script>
 
         </div>
 
@@ -964,44 +1023,6 @@ _________________________________________________________ -->
 
 
   </div>
-  <!-- /#all -->
-
-  <!-- #### JAVASCRIPT FILES ### -->
-
-  <!-- js base -->
-  <script src="https://code.jquery.com/jquery-latest.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-
-  <!-- for demo purpose -->
-  <script src="js/jquery.cookie.js"></script>
-
-  <!-- waypoints for scroll spy -->
-  <script src="js/waypoints.min.js"></script>
-
-  <!-- maps -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC-iXMAoB65jNzfvh2WznVL2A_axkbqg5o"></script>
-  <!-- to use it on your site, generate your own API key for Google Maps and paste it above -->
-  <script src="js/gmaps.js"></script>
-
-  <!-- masonry layout -->
-  <script src="js/masonry.pkgd.min.js"></script>
-
-  <!-- owl carousel -->
-  <script src="js/owl.carousel.min.js"></script>
-
-
-  <!-- jQuery scroll to -->
-  <script src="js/jquery.scrollTo.min.js"></script>
-
-  <!-- jQuery counter -->
-  <script src="js/jquery.counterup.min.js"></script>
-
-  <!-- jQuery parallax -->
-  <script src="js/jquery.parallax-1.1.3.js"></script>
-
-  <!-- main js file -->
-  <script src="js/front.js"></script>
-
 </body>
 
 </html>
